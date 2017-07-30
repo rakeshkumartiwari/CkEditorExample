@@ -17,7 +17,7 @@ namespace CkEditorExample
         {
             tblCkEditor model = new tblCkEditor();
             model.PostTitle = txtPostTitle.Text;
-            model.PostComment = TextArea1.InnerText;//Get the valu of Cleditor
+            model.PostComment = TextArea1.InnerText;//Get the valu of Cleditor.
             db.tblCkEditors.Add(model);
             db.SaveChanges();
             txtPostTitle.Text = "";

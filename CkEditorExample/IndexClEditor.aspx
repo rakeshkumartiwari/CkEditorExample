@@ -14,7 +14,7 @@
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="scripts/jquery.cleditor.min.js"></script>
 
-    <%-- this for display Cleditor if you won't write this code Cleditor won'tbe displayed--%>
+    <%-- this is for display Cleditor if you won't write this code Cleditor won't be displayed--%>
     <script type="text/javascript">
         $(document).ready(function () { $("#TextArea1").cleditor(); });
   </script>
